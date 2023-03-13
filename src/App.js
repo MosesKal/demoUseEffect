@@ -1,8 +1,8 @@
 
 import './styles/App.css';
-// import EffetDeBord from './components/EffetDeBord';
-// import CTime from "./components/CTime";
-import Ftime from './components/Ftime';
+
+import FHorloge from './components/FHorloge';
+
 
 
 function App() {
@@ -10,9 +10,10 @@ function App() {
   return (
     <div className='watch'>
       <div className='display'>
-        <Ftime />
+        < FHorloge />
       </div>
     </div>
+
   );
 }
 
